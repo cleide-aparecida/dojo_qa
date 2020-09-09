@@ -1,0 +1,16 @@
+{
+  "holder": {
+    "address": {
+      "zipCode": "string",
+      "street": "string",
+      "number": 10,
+      "complement": "string"
+    },
+    "birthDate": "string",
+    "cpf": "string",
+    "accountType": "string",
+    "name": "string",
+    "socialName": "string",
+    "cnpj": "string"
+  }
+}
