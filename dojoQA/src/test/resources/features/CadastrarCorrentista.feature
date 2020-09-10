@@ -15,7 +15,7 @@
     E status code 201 é retornado
 
 
-  Esquema do Cenario: Validar campos obrigatórios
+  Esquema do Cenario: Validar campos obrigatórios (<nomeCampo>)
     Dado que o campo "<nomeCampo>" não é informado na request
     Quando efetuo a operação de POST no caminho "/holders"
     Entao a mensagem "Campo <nomeCampo> nao informado" é retornada
@@ -31,7 +31,7 @@
       |accountType|
       |name|
 
-    Esquema do Cenario: Validar regras dos campos
+    Esquema do Cenario: Validar regras dos campos (<nomeCampo>)
       Dado que o campo "<nomeCampo>" é fornecido como "<valorCampo>"
       Quando efetuo a operação de POST no caminho "/holders"
       Entao a mensagem "<returnedMessage>" é retornada
