@@ -1,16 +1,16 @@
 {
   "holder": {
     "address": {
-      "zipCode": "string",
-      "street": "string",
+      "zipCode": 12345678,
+      "street": "Rua das Flores",
       "number": 10,
-      "complement": "string"
+      "complement": "Some complement"
     },
-    "birthDate": "string",
-    "cpf": "string",
-    "accountType": "string",
-    "name": "string",
-    "socialName": "string",
-    "cnpj": "string"
+    "birthDate": "1987-05-25",
+    "cpf": "98745632102",
+    "accountType": "PF",
+    "name": "My name",
+    "socialName": "ciandt",
+    "cnpj": "12345678912365"
   }
 }

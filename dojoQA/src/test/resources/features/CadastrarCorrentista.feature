@@ -18,7 +18,7 @@
   Esquema do Cenario: Validar campos obrigatórios
     Dado que o campo "<nomeCampo>" não é informado na request
     Quando efetuo a operação de POST no caminho "/holders"
-    Entao a mensagem "Campo <nomeCampo> não informado" é retornada
+    Entao a mensagem "Campo <nomeCampo> nao informado" é retornada
     E status code 400 é retornado
 
     Exemplos: campos obrigatorios
@@ -54,7 +54,7 @@
     Dado que o campo "accountType" é fornecido como "PJ"
     E que o campo "<nomeCampo>" não é informado na request
     Quando efetuo a operação de POST no caminho "/holders"
-    Entao a mensagem "Campo <nomeCampo> não informado" é retornada
+    Entao a mensagem "Campo <nomeCampo> nao informado" é retornada
     E status code 400 é retornado
 
     Exemplos:

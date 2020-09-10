@@ -7,8 +7,6 @@ import io.restassured.http.ContentType;
 import org.json.JSONObject;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.*;
@@ -70,7 +68,7 @@ public class CadastrarCorrentistaSteps extends Base {
 
     @Entao("a mensagem {string} é retornada")
     public void a_mensagem_é_retornada(String message) {
-        setValidatableResponse(getResponse().then().body("message", equalTo(message)));
+        setValidatableResponse(getResponse().then().body("message", equalTo(message)).log().all());
     }
 
 }
